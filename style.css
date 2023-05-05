@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Lobster&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Quicksand:wght@600&family=Satisfy&display=swap');
+
 
 :root {
-    --padrao: #f32e49;
-    --nome: 'Inspiration', cursive;
-    --corpo: 'Montserrat', sans-serif;
-
+    --padrao: #eb600f;
+    --padrao2: #d53200;
+    --nome: 'Satisfy', cursive;
+    --corpo: 'Lato', cursive;
+    --corpo2: 'Quicksand', sans-serif;
 }
 
 * {
@@ -14,7 +16,7 @@
 }
 
 body {
-    background-color: #c4c4c4;
+    background-color: #211915;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,27 +25,29 @@ body {
 
 .nome {
     font-family: var(--nome);
-    font-size: 4.5rem;
+    font-size: 1.6rem;
     color: white;
-    padding-top: 50px;
+    padding-top: 10px;
     text-align: center;
 
 }
 
-.box-top {
-    width: 95vw;
-    height: 35vh;
-    background-color: var(--padrao);
-    border-radius: 0px 0px 35px 35px;
-    margin-bottom: 10px;
-}
 
 .about {
+    font-family: var(--corpo2);
+    color: white;
+    text-align: center;
+    font-size: 0.7rem;
+    padding: 5px;
+}
+
+.about2 {
     font-family: var(--corpo);
     color: white;
     text-align: center;
     font-size: 1.1rem;
     padding: 5px;
+    
 }
 
 main {
@@ -56,13 +60,28 @@ main {
 
 .box-link {
     background-color: var(--padrao);
-    height: 10vh;
+    height: 4vh;
     width: 80vw;
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
     color: white;
-    font-family: var(--corpo);
+    font-family: var(--corpo2);
+    font-size: 1.1rem;
+   
+
+}
+
+.box-link2 {
+    background-color: var(--padrao2);
+    height: 4vh;
+    width: 80vw;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+    font-family: var(--corpo2);
+    font-size: 1.1rem;
 
 }
 
@@ -78,6 +97,60 @@ a {
 
 .box-link:hover {
     border: 1px solid var(--padrao);
-    background-color: white;
+    background-color: #ffac7c;
     color: var(--padrao);
+}
+
+.box-link2:hover {
+    border: 1px solid var(--padrao);
+    background-color: #ffac7c;
+    color: var(--padrao);
+}
+
+.footer-link {
+    display: inline-block;
+    align-items: center;
+    justify-items: center;
+    padding-left: 35%;
+    margin-top: 30px;
+    }
+
+.footer-link2 {
+    display: inline-block;
+    align-items: center;
+    justify-items: center;
+    padding-left: 3%;
+    margin-top: 30px;
+}
+
+.footer-link3 {
+    display: inline-block;
+    align-items: center;
+    justify-items: center;
+    padding-left: 3%;
+    margin-top: 30px;
+}
+
+
+.flor {
+    height: 60px;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+
+}
+
+.rodape {
+    font-family: var(--corpo2);
+    color: white;
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 0px;
+    margin: 10px;
+    margin-top: 50px;
+}
+
+footer {
+    color: white;
+    
 }
